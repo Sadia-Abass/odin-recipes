@@ -1,6 +1,14 @@
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(248, 245, 241);
+  padding: 25px;
+  border: 2px;
 }
 h1,
 h2,
@@ -8,6 +16,8 @@ h3,
 h4 {
   color: rgba(6, 205, 255, 0.918);
   text-align: start;
+  padding: 5px;
+  margin-left: 250px;
 }
 
 ul,
@@ -15,22 +25,28 @@ ol,
 li {
   color: rgb(5, 11, 14);
   text-align: start;
+  padding: 5px;
+  margin-left: 150px;
+  margin-right: 50px;
 }
 
 img {
   height: 400px;
   width: auto;
+  padding: 25px;
+  margin-left: 250px;
 }
 
 .title {
   font-size: 32px;
   font-weight: bold;
   text-decoration: none;
+  margin-left: 250px;
 }
 
 .nav-menu {
   color: rgb(235, 173, 235);
   font-size: 24px;
   font-weight: bold;
-  text-align: start;
+  text-align: center;
 }
